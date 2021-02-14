@@ -1,0 +1,10 @@
+/***************/
+/** VARIABLES **/
+/***************/
+
+:root {
+  --color-accent: orange;
+  --color-default-dark: #333;
+  --color-default-light: #ddd;
+  --website-max-width: 1024px;
+}

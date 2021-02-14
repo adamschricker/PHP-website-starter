@@ -1,0 +1,30 @@
+/************************/
+/** LAYOUT / STRUCTURE **/
+/************************/
+
+html, body {
+  background-color: var(--color-default-light);
+  color: var(--color-default-dark);
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex: 1 0 100%;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: var(--website-max-width);
+}
+
+body > header {
+  flex: 0;
+}
+
+body > main {
+  flex: 1;
+}
+
+body > footer {
+  flex: 0;
+}

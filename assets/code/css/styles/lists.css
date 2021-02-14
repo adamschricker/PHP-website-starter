@@ -1,0 +1,12 @@
+/***********/
+/** LISTS **/
+/***********/
+
+ol { margin: 0 0 1rem 2rem; }
+ol li { margin-bottom: 0.5rem; }
+ol ol { margin-left: 1.5rem; }
+ol ul { margin-left: 1.25rem; }
+
+ul { margin: 0 0 1rem 1.5rem; }
+ul li { margin-bottom: 0.5rem; }
+ul ul { margin-left: 1.25rem; }

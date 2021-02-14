@@ -1,0 +1,28 @@
+p {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+
+hr {
+  border: thin solid var(--color-default-dark);
+}
+
+a {
+  color: var(--color-default-dark);
+  text-decoration: underline;
+}
+
+a:hover {
+  text-shadow: 0 0 1rem var(--color-accent);
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.hide {
+  display: none;
+}

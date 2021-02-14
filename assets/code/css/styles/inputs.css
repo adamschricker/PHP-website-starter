@@ -1,0 +1,57 @@
+button,
+input,
+select {
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+input:focus,
+select:focus {
+  box-shadow:
+    0
+    0
+    0.25rem
+    0.25rem
+    var(--color-accent);
+}
+
+option:checked {
+  background: var(--color-accent);
+}
+
+input[type='checkbox'] {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+input[type='radio'] {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+button,
+.button,
+input[type='button'],
+input[type='submit'] {
+  border: thin solid transparent;
+  cursor: pointer;
+  font-size: 1.25rem;
+  transition: background-color 0.5s ease;
+}
+
+button:disabled {
+  background-color: #ddd;
+  border-color: #bbb;
+  color: #bbb;
+}
+
+button:enabled {
+  background-color: var(--color-accent);
+  border-color: transaparent;
+  color: var(--color-default-dark);
+}
+
+button:hover:enabled {
+  text-shadow: 0 0 1rem white;
+}

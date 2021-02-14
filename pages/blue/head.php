@@ -1,0 +1,1 @@
+<title>Blue Page</title>
