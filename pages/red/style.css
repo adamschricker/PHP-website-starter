@@ -1,3 +1,8 @@
+:root {
+  --color-accent: red;
+  --color-border: red;
+}
+
 main {
   color: red;
 }

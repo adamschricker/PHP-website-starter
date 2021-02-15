@@ -4,10 +4,10 @@
 <a href="/">Example Website</a>
 
 <nav>
-  <ul>
-    <li><a href="/red/">Red</a></li>
-    <li><a href="/green/">Green</a></li>
-    <li><a href="/blue/">Blue</a></li>
+  <ul class="button-group">
+    <li><a href="/red/" class="button">Red</a></li>
+    <li><a href="/green/" class="button">Green</a></li>
+    <li><a href="/blue/" class="button">Blue</a></li>
   </ul>
 </nav>
 
