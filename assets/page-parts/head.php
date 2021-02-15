@@ -6,7 +6,13 @@
 
 <?php include($pageHeadFile); ?>
 
-<?php include("assets/code/css/websiteCSS.php"); ?>
+<style>
+<?php
+  include("assets/code/css/base.css");
+  include("assets/code/css/website.css");
+?>
+</style>
+
 
 <?php
 // Include page specific style file if it exists
