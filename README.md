@@ -7,4 +7,4 @@ A PHP website starter project.  Example file structure and starter pages with st
 **How to Run Local PHP Environment**
 - Download and install PHP at https://www.php.net/
 - At project directory run `php -S localhost:80`
-- Go to `http://localhost` in your favorite web browser
+- Go to http://localhost in your favorite web browser
