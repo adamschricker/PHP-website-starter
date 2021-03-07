@@ -13,7 +13,10 @@
 </body>
 
 <script>
-<?php include("assets/code/javascript/website.js"); ?>
+<?php
+  include("assets/code/javascript/header.js");
+  include("assets/code/javascript/website.js");
+?>
 </script>
 
 <?php

@@ -5,3 +5,8 @@
   --color-accent: purple;
   --color-border: purple;
 }
+
+
+header > nav > button {
+  margin: 0;
+}

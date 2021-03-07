@@ -9,6 +9,7 @@
 <style>
 <?php
   include("assets/code/css/base.css");
+  include("assets/code/css/header.css");
   include("assets/code/css/website.css");
 ?>
 </style>
